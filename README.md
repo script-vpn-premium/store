@@ -19,10 +19,11 @@
 <p <p align="center"><img src="https://img.shields.io/badge/Service-Webmin-success.svg"> <img src="https://img.shields.io/badge/Service-Helium-success.svg">
 <p <p align="center"><img src="https://wangchujiang.com/sb/status/stable.svg">
 
+### Update Os Debian
 ```
 apt update -y && apt upgrade -y && apt dist-upgrade -y && reboot
 ```
-### Instalasi script prem
+### Instalasi premium script
 ```
 sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update -y && apt upgrade -y && apt install -y bzip2 gzip coreutils screen curl unzip && apt install lolcat -y && gem install lolcat && wget -q https://raw.githubusercontent.com/script-vpn-premium/store/main/setup-main.sh && chmod +x setup-main.sh && sed -i -e 's/\r$//' setup-main.sh && screen -S setupku ./setup-main.sh
 ```
@@ -51,7 +52,7 @@ sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.di
 ```
 SUCCESSFUL ✓
 ```
-JESVPN TUNNEL:
+PREMIUM SCRIPT STORE:
 
 <a href="https://t.me/JesVpnt" target="_blank">
   <img src="https://img.shields.io/static/v1?style=for-the-badge&logo=Telegram&label=Telegram&message=Click%20Here&color=blue">
